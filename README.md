@@ -1,7 +1,8 @@
 # Notion Layout Extension
 ## What is it?
-Chrome Extension that auto-hides  page properties list for Notion database entries.
-This makes page content visible front and center instead of being hidden under lots of fields.
+Chrome Extension that makes viewing Notion database pages better!
+
+It auto-hides page properties list that often pushes down the page content.
 
 ## How it works?
 By default list of properties is collapsed:             |  Clicking on the bar opens/hides the list of properties:
