@@ -2,8 +2,9 @@ var isshown=false
 
 var modifyComments = function(){
     console.log("Notion Layout Extension: Document changed");
-    var target = document.querySelector(".notion-scroller.vertical > div:nth-child(2)[style='width: 100%; font-size: 14px;']");
-    if (target) {
+    var targets = document.querySelectorAll(".notion-scroller.vertical > div:nth-child(2)[style='width: 100%; font-size: 14px;']");
+    targets.forEach(function(target){
+        console.log("Found entries");
 
         let abutton = document.createElement("button");
         abutton.innerHTML = "-";
@@ -25,15 +26,18 @@ var modifyComments = function(){
             }
         }
 
-        if (!document.getElementById("myButton")){
+        if (!(target.id === "A")){
+            console.log("Processing new entry");
             let parentDiv = target.parentNode
-            var content = document.querySelector(".notion-page-controls").parentElement
+            var content = target.parentElement.firstChild.firstChild
             content.appendChild(abutton)
+            console.log("Processing new entry2");
 
             target.style.height = 0;
             target.style.display = "none";
+            target.id = "A";
         }
-    }
+    })
 }
 
 // Select the node that will be observed for mutations
