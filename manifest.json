@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Notion Layout Improver",
+  "version": "0.1.0",
+  "description": "Improves Notion pages layout",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery.min.js", "content.js"],
+    "matches": ["https://www.notion.so/*"]
+  }]
+
+}

@@ -1,0 +1,9 @@
+/*.notion-scroller.vertical > div:nth-child(2)[style="width: 100%; font-size: 14px;"] {
+    height: 0;
+    display: none;
+} */
+
+.notion-page-view-discussion {
+    height: 0;
+    display: none;
+}
