@@ -1,4 +1,4 @@
-# Notion Layout Extension
+# Notion Layout - Chrome Extension
 ## What is it?
 Chrome Extension that makes viewing Notion database pages better!
 
