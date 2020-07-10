@@ -20,6 +20,8 @@ If you still want to see comments, simply delete everything in styles.css file.
 4. Drag & drop entire repo folder into Chrome extensions window
 5. Enjoy
 
-## Note
-This is a simple extension with 1 simple code file and 1 simple 
-It also hides the 
+## Safety
+This is a simple extension with <2 pages of code. You can read it entirely to make sure it is safe.
+
+## Notice
+I wrote it in an afternoon for myself and sharing with the community. It is not affiliated with Notion the company.
