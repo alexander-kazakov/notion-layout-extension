@@ -9,10 +9,6 @@ By default list of properties is collapsed:             |  Clicking on the bar o
 :-------------------------:|:-------------------------:
 ![collapsed](https://github.com/alexander-kazakov/notion-layout-extension/raw/master/images/collapsed.png)  |  ![uncollapsed](https://github.com/alexander-kazakov/notion-layout-extension/raw/master/images/uncollapsed.png)
 
-## Hiding the comments seciton
-The extension also permanently hides the comments section - great for personal Notion users. 
-If you still want to see comments, simply delete everything in styles.css file.
-
 ## How to install?
 1. Download the whole repo as Zip file (see green button "Code" in top right of this page)
 2. Open Chrome Extension chrome://extensions
