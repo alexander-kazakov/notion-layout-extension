@@ -24,7 +24,8 @@ If you still want to see comments, simply delete everything in styles.css file.
 YouTube video which shows steps 2-5: https://www.youtube.com/watch?v=5W9ZPEaVMWE
 
 ## Safety
-This is a simple extension with <2 pages of code. You can read it entirely to make sure it is safe.
+This is a simple extension with <2 pages of code. You can read it entirely to make sure it is safe. 
+PS. I include official copy of jQuery library as I didn't figure out how to reference it via URL in the manifest file.
 
 ## Notice
 I wrote it in an afternoon for myself and sharing with the community. It is not affiliated with Notion the company.
