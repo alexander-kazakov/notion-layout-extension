@@ -28,5 +28,7 @@ This is a simple extension with <2 pages of code. You can read it entirely to ma
 
 ## Notice
 I wrote it in an afternoon for myself and sharing with the community. It is not affiliated with Notion the company.
+
 If you find a bug, log the issue here: https://github.com/alexander-kazakov/notion-layout-extension/issues
-If you code, I'd appreciate if you help by improving the code / fixing an issue yourself.
+
+If you code, I'd appreciate your help of fixing an issue yourself.
