@@ -14,14 +14,19 @@ The extension also permanently hides the comments section - great for personal N
 If you still want to see comments, simply delete everything in styles.css file.
 
 ## How to install?
-1. Download the whole repo
+1. Download the whole repo as Zip file (see green button "Code" in top right of this page)
 2. Open Chrome Extension chrome://extensions
 3. Enable "Developer Mode" (top right)
-4. Drag & drop entire repo folder into Chrome extensions window
-5. Enjoy
+4. Unzip the downloaded folder
+5. Drag & drop the unzipped folder into Chrome extensions window
+6. Enjoy
+
+YouTube video which shows steps 2-5: https://www.youtube.com/watch?v=5W9ZPEaVMWE
 
 ## Safety
 This is a simple extension with <2 pages of code. You can read it entirely to make sure it is safe.
 
 ## Notice
 I wrote it in an afternoon for myself and sharing with the community. It is not affiliated with Notion the company.
+
+If you find a bug, you can log it here: https://github.com/alexander-kazakov/notion-layout-extension/issues
