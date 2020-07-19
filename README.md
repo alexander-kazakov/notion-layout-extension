@@ -7,7 +7,7 @@ It auto-hides page properties list that often pushes down the page content.
 ## How it works?
 By default list of properties is collapsed:             |  Clicking on the bar opens/hides the list of properties:
 :-------------------------:|:-------------------------:
-![collapsed](https://github.com/alexander-kazakov/notion-layout-extension/raw/master/images/collapsed.png)  |  ![uncollapsed](https://github.com/alexander-kazakov/notion-layout-extension/raw/master/images/uncollapsed.png)
+![collapsed](https://github.com/alexander-kazakov/notion-layout-extension/raw/master/img/collapsed.png)  |  ![uncollapsed](https://github.com/alexander-kazakov/notion-layout-extension/raw/master/img/uncollapsed.png)
 
 ## How to install?
 1. Download the whole repo as Zip file (see green button "Code" in top right of this page)

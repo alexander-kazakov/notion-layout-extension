@@ -1,4 +1,13 @@
-/* This hides comments block 
+
+/* Bar button that opens / closes Notion page properties list */
+.propertiesToggleBar {
+    font-size: 4px;
+    border: none;
+    width: 100%;
+    
+}
+
+/* Uncomment this to fully hide comments block 
 .notion-page-view-discussion {
     height: 0;
     display: none;
