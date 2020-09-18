@@ -21,7 +21,7 @@ var onPageChange = function(){
     console.log("Notion Layout Improver: Something changed");
 
     // Find the block with properties list
-    var propertiesLists = document.querySelectorAll(".notion-scroller.vertical > div:nth-child(2) > div > div:nth-child(1)");
+    var propertiesLists = document.querySelectorAll(".notion-scroller.vertical > div:nth-child(2) > div > div:nth-child(1)[style='width: 100%; font-size: 14px;']");
 
     // For each found properties list
     propertiesLists.forEach(function(propertiesList){
