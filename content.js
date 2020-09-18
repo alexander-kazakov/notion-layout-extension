@@ -21,7 +21,7 @@ var onPageChange = function(){
     console.log("Notion Layout Improver: Something changed");
 
     // Find the block with properties list
-    var propertiesLists = document.querySelectorAll(".notion-scroller.vertical > div:nth-child(2)");
+    var propertiesLists = document.querySelectorAll(".notion-scroller.vertical > div:nth-child(2) > div > div:nth-child(1)");
 
     // For each found properties list
     propertiesLists.forEach(function(propertiesList){
@@ -37,8 +37,8 @@ var onPageChange = function(){
         // add the toggle button and hide the list
         if (!(propertiesList.id === "already_processed")){
             console.log("Notion Layout Improver: Processing new properties list");
-            var parentBlockForButton = propertiesList.parentElement.firstChild.firstChild
-            parentBlockForButton.appendChild(toggleButton)
+            var parentBlockForButton = propertiesList.parentElement
+            parentBlockForButton.prepend(toggleButton)
             setPropertiesListVisibility(propertiesList, false)
             propertiesList.id = "already_processed";
 
