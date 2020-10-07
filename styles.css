@@ -16,6 +16,27 @@
 	height: auto !important;
 }
 
+.notion-page-content .notion-selectable{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+.notion-page-content .notion-selectable > div{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+.notion-page-content .notion-selectable > div > div{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+} 
+
+.notion-page-content > div{
+	max-width: 2000px !important;
+	width: 100% !important;
+}
+
+
 /* Uncomment this to fully hide comments block 
 .notion-page-view-discussion {
     height: 0;
