@@ -7,6 +7,15 @@
     
 }
 
+.notion-peek-renderer > div:nth-child(2){
+	max-width: 1500px !important;
+	top: 30px !important;
+	left: 30px !important;
+	right: 30px !important;
+	bottom: 30px !important;
+	height: auto !important;
+}
+
 /* Uncomment this to fully hide comments block 
 .notion-page-view-discussion {
     height: 0;
