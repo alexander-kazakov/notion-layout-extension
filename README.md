@@ -1,4 +1,9 @@
 # Notion Layout - Chrome Extension
+## IMPORTANT UPDATE
+On 11th November 2020 Notion team released an update that implemented a more advanced version of this extension inside Notion. This is amazing news :-) It also makes this extension no longer necessary. 
+
+Read more: https://www.notion.so/Tables-66a1cce8fb6f4f64b9996f4146c51fad#42151d1191b54607a557bb107d5c38f0
+
 ## What is it?
 Chrome Extension that makes viewing Notion database pages better!
 
